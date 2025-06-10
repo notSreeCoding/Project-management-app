@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Spring Boot config
+src/main/resources/application.properties
+
+
 ### STS ###
 .apt_generated
 .classpath
@@ -19,8 +23,6 @@ target/
 *.iml
 *.ipr
 
-
-src/main/resources/application.properties
 
 
 ### NetBeans ###
